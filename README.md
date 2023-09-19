@@ -42,7 +42,11 @@ This new controller greatly simplified things but also lost some features of the
 
 ## First Ride
 
-TBD
+![first_ride](.github/images/first_ride.jpg)
+
+The bike rides pretty well! The cadence sensor is a bit wonky. It can be a bit finicky when starting but once you have a good rhythm, it's fine. I'm not sure why but it definitely has a little to do with the sensor and controller not being exactly compatible. The controller is for a 3-pin PAS but the sensor is 6-pin. I might try to fix that in the future.
+
+The battery isn't in the best shape. It probably has about 50% of it's original capacity. When I was testing out some of the cells, they seemed to be about 50%. For now, it's fine. I get about 25 miles of range for a few hours of charging. That's plenty for me.
 
 ## NFC Lock
 
