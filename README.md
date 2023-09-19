@@ -65,6 +65,6 @@ The code for the lock is in [lock.ino](lock.ino) and the NFC enclosure that I ma
 
 ## Outro
 
-Thanks for reading! I hope this was helpful for anyone else trying to revive a Lime bike. I'm sure more of these rideshare bikes will be available in the future as the companies go out of business, their gorilla deployments fail or they upgrade their fleets. I'm excited to see what people do with them.
+Thanks for reading! I hope this was helpful for anyone else trying to revive a Lime bike. I'm sure more of these rideshare bikes will be available in the future as the companies go out of business, their guerilla deployments fail or they upgrade their fleets. I'm excited to see what people do with them.
 
 I'm happy to answer any questions about the project. Feel free to email me.
