@@ -18,7 +18,7 @@ The bike seemed almost new. It still had some of the plastic film for packing ar
 
 ![bike_info](.github/images/bike_info.jpg)
 
-The bike is from 2017 and they called it the "LIME-E BETA". It has a Bafang motor (maybe 250W?), Bafang torque/cadence bottom bracket, 14.5Ah 36V battery, Shimano nexus brakes, all aluminum construction (besides a a few small steel brackets) and solid tires. It's a heavy, no maintenance bike.
+The bike is from 2017 and they called it the "LIME-E BETA". It has a Bafang motor (maybe 250W?), Bafang torque/cadence integrated bottom bracket and sensor, 14.5Ah 36V battery, Shimano nexus brakes, all aluminum construction (besides a a few small steel brackets) and solid tires. It's a heavy, no maintenance bike.
 
 The main issue was that the bike was totally dead. The battery was near 0V. Even with an external power supply feeding 36V to the controller, the bike did nothing.
 
@@ -44,9 +44,9 @@ This new controller greatly simplified things but also lost some features of the
 
 ![first_ride](.github/images/first_ride.jpg)
 
-The bike rides pretty well! The cadence sensor is a bit wonky. It can be a bit finicky when starting but once you have a good rhythm, it's fine. I'm not sure why but it definitely has a little to do with the sensor and controller not being exactly compatible. The controller is for a 3-pin PAS but the sensor is 6-pin. I might try to fix that in the future.
+The bike rides pretty well! The cadence sensor is a bit wonky. It can be a bit finicky when starting but works well once you have a good rhythm. I'm not sure why but it definitely has a little to do with the sensor and controller not being exactly compatible. The controller is for a 3-pin PAS but the sensor is 6-pin. I might try to fix that in the future.
 
-The battery isn't in the best shape. It probably has about 50% of it's original capacity. When I was testing out some of the cells, they seemed to be about 50%. For now, it's fine. I get about 25 miles of range for a few hours of charging. That's plenty for me.
+The battery isn't in the best shape. It probably has about 50% of its original capacity. When I was testing out some of the cells, they seemed to be about 50%. I get about 25 miles of range for a few hours of charging. That's plenty for me.
 
 ## NFC Lock
 
@@ -63,7 +63,7 @@ I was able to re-use most of the components of the lock (limit switches and moto
 
 I powered the whole set up with a 9V battery. This might bite me in the future but it was the easiest way to get it working. The Nano and PN532 are both 5V devices so I waste some power going through the Nano's voltage regulator. I also used a transistor to drive the motor directly from the battery to protect the Nano from drawing too much current. I don't have any way to tell if the 9V battery is low and it'll suck if I get locked out of my bike because the battery died. I might make a backup system in the future. And/or switch it to a rechargeable battery.
 
-The code for the lock is in [lock.ino](lock.ino) and the NFC enclosure that I made is in [NFC Enclosure.stl](NFC Enclosure.stl). The NFC enclosure replaces the locks original cellular antenna enclosure. I cut off the original enclosure with a dremel and glued the new one on with hot glue.
+The code for the lock is in [lock.ino](lock.ino) and the NFC enclosure that I made is in [NFC Enclosure.stl](NFC%20Enclosure.stl). The NFC enclosure replaces the locks original cellular antenna enclosure. I cut off the original enclosure with a dremel and glued the new one on with hot glue.
 
 ![lock_installed](.github/images/lock_installed.jpg)
 
